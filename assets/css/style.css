@@ -7,7 +7,6 @@
 
 .container {
     display: flex;
-    border: 1px solid black;
     height: 500px;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +16,13 @@
 .prototipe {
     padding-left: 50px;
     box-sizing: border-box;
+}
+
+.calculator{
+    border: 3px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e7e7e7;
 }
 
 .inputs {
