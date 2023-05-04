@@ -6,17 +6,35 @@
 }
 
 .container {
-
+    display: flex;
+    border: 1px solid black;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .prototipe {
-
+    padding-left: 50px;
+    box-sizing: border-box;
 }
 
 .inputs {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .operations{
+    display: flex;
+    gap:10px;
+    margin: 10px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+}
+
+.btn:hover {
 
 }
